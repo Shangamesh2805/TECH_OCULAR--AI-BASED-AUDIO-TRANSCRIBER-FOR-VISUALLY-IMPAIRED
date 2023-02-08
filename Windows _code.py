@@ -31,8 +31,6 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
 
 
-    
-
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
@@ -107,7 +105,6 @@ if __name__ == "__main__":
 
                        file.write(result)
     
-                    
                     file = open("C:/Users/shang/TechOcular/imagetaken1.txt", "r")
                     a=file.read()
         
@@ -134,6 +131,7 @@ if __name__ == "__main__":
                           mixer.music.play()
 
                           # infinite loop
+                        
                           while True:
                               if 'pause' in query:
                                   mixer.music.pause()	
@@ -149,9 +147,6 @@ if __name__ == "__main__":
      
 
                	
-                
-
-
             elif 'pause audio' in query:
                 music_dir = 'D:\\Non Critical\\songs\\Favorite Songs2'
                 songs = os.listdir(music_dir)
