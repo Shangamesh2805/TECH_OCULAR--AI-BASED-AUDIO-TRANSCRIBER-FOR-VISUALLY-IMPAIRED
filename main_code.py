@@ -98,6 +98,7 @@ if __name__ == "__main__":
                     print(img)
                    # path where the tesseract module is installed
                     pytesseract.pytesseract.tesseract_cmd ='C:/Program Files/Tesseract-OCR/tesseract.exe'
+                   #This .exe is attached in my repositary
                    # converts the image to result and saves it into result variable
                     result = pytesseract.image_to_string(img)
                    # write text in a text file and save it to source path
@@ -141,10 +142,6 @@ if __name__ == "__main__":
                                       # Stop the mixer
                               	mixer.music.stop()
                               	break
-                    
-
-           
-     
 
                	
             elif 'pause audio' in query:
