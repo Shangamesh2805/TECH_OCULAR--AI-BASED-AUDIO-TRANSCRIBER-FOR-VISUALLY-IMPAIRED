@@ -20,8 +20,6 @@ Visually impaired people can gain more knowledge independently by using our proj
 
 • webbrowser
 
-• smtplib
-
 • cv2
 
 • pytesseract
